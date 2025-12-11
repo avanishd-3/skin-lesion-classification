@@ -64,6 +64,7 @@ If not using the Google Drive link, you must have the following zip files. The d
 │   ├── isic-2024-synthetic.zip
 │   │   └── images
 │   │       └── IMG_NAME.png
+│   │       └── ...
 ```
 
 ### Recommended Runtime (Colab)
