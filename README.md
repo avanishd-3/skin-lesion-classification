@@ -8,6 +8,7 @@ This project compares EfficientNet v2-M and DINO v3-Base on classifying skin les
 
 - **`README.md`**: Overview of the project directory structure and running instructions
 - **`skin_lesion_classification.ipynb`**: The Jupyter notebook used for training, evaluating, and saving the EfficientNet and DINO models.
+- **`skin_lesion_classification_local.ipynb`**: Version of trainig notebook for local runtime.
 - **`.gitignore`**: Files for Git to ignore
 - **`.python-version:`** Tells uv which version of Python to use when setting up venv
 - **`pyproject.toml`**: Description of project and its dependencies
@@ -41,3 +42,33 @@ If not using the Google Drive link, you must have the following zip files. The d
 1. Upload `skin_lesion_classification.ipynb` to Colab
 2. Upload the `skin_lesion_classification` folder to your Google Drive if you haven't already.
 3. Connect to a T4 Runtime (available under Runtime>change runtime type) on Colab.
+
+### Running Locally (not tested and not recommended)
+
+1. Install uv
+2. Run uv sync
+3. Put `isic-2024-challenge.zip` and `isic-2024-synthetic.zip` into **`./content/data`**
+3. Run `skin_lesion_classification_local.ipynb`
+
+Note: This assumes CUDA on Windows and Linux, and CPU on MacOS. If this is not the case for you, see [uv Pytorch guide](https://docs.astral.sh/uv/guides/integration/pytorch/) for updating pyproject.toml to use the correct builds for torch and torchvision.
+
+## Installing UV
+
+See [installation guide](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer) for all options.
+
+### Unix/MacOS
+
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+or
+
+```
+brew install uv
+```
+### Windows
+
+```
+winget install --id=astral-sh.uv  -e
+```
