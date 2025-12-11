@@ -1,4 +1,4 @@
-# EfficientNet vs DINO for Skin Lesion Classification
+#  EfficientNet v2-M vs Dino v3-Base for Skin Lesion Classification
 
 This project compares EfficientNet v2-M and DINO v3-Base on classifying skin lesions as benign or malignant.
 

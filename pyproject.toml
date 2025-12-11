@@ -1,7 +1,7 @@
 [project]
 name = "skin-lesion-classification"
 version = "0.1.0"
-description = "Add your description here"
+description = "EfficientNet v2-M vs Dino v3-Base for Skin Lesion Classification"
 readme = "README.md"
 requires-python = "==3.12.10"
 dependencies = [
