@@ -38,7 +38,9 @@ This project compares EfficientNet v2-M and DINO v3-Base on classifying skin les
 Note: This assumes CUDA on Windows and Linux, and CPU on MacOS. If this is not the case for you, see [uv Pytorch guide](https://docs.astral.sh/uv/guides/integration/pytorch/) for updating pyproject.toml to use the correct builds for torch and torchvision.
 
 
-## Training Usage Instructions
+## End-to-End Usage Instructions
+
+`skin_lesion_classification.ipynb` takes about 3 hours to run in total on the Colab T4 Runtime. So, don't try to run this on CPU, either locally or on Colab.
 
 ## Getting Data
 
