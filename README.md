@@ -20,35 +20,20 @@ This project compares EfficientNet v2-M and DINO v3-Base on classifying skin les
 ## Getting Data
 
 The data is from the following publicly available datasets: 
-    - https://www.kaggle.com/competitions/isic-2024-challenge
-    - https://www.kaggle.com/datasets/ilya9711nov/isic-2024-synthetic/data
+- https://www.kaggle.com/competitions/isic-2024-challenge
+- https://www.kaggle.com/datasets/ilya9711nov/isic-2024-synthetic/data
 
 The data is also available at [this Google Drive link](https://drive.google.com/drive/folders/1xBomJrOHf-5Ae0OxfhhIOa6w7cF4imC9?usp=sharing), which is organized for this project. To use this, download the `skin_lesion_classification` folder and upload it to your Google Drive (it should be in MyDrive).
 
-If not using the Google Drive link, you must have the following zip files. The directory structure shown for `isic-2024-synthetic.zip` is for the unzipped file. To achieve this, delete the lr subfolders from the original dataset and flatten all the folders into a single images folders before zipping up your isic-2024-synthetic
+If not using the Google Drive link, you must have the following zip files. The directory structure shown for `isic-2024-synthetic.zip` is for the unzipped file. To achieve this, delete the lr subfolders from the original dataset and flatten all the hr folders into a single images folders before zipping up your isic-2024-synthetic folder.
 
 ```text
 /
-├── isic-2024-challenge.zip
-├── isic-2024-synthetic.zip
-│   ├── images
-│   │   └── IMG_NAME.png
-
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── about_me_image.jpeg
-│   ├── components
-│   │   └── starwind
-│   │   └── ui
-│   ├── content
-│   │   └── about
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+├── skin_lesion_classification
+│   ├── isic-2024-challenge.zip
+│   ├── isic-2024-synthetic.zip
+│   │   └── images
+│   │       └── IMG_NAME.png
 ```
 
 ### Recommended Runtime (Colab)
