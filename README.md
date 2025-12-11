@@ -36,9 +36,11 @@ The trained models are available at the following Hugging Face links:
 ### Running Locally (not tested and not recommended)
 
 1. Install uv
-2. Run uv sync
-3. Zip `ph2_data` into `ph2_data.zip` 
-3. Run `demo.ipynb`
+2. Clone the repository: git clone https://github.com/avanishd-3/skin-lesion-classification.git
+3. cd skin-lesion-classification
+4. Run uv sync
+5. Zip `ph2_data` into `ph2_data.zip` 
+6. Run `demo.ipynb`
 
 Note: This assumes CUDA on Windows and Linux, and CPU on MacOS. If this is not the case for you, see [uv Pytorch guide](https://docs.astral.sh/uv/guides/integration/pytorch/) for updating pyproject.toml to use the correct builds for torch and torchvision.
 
@@ -76,9 +78,11 @@ If not using the Google Drive link, you must have the following zip files. The d
 ### Running Locally (not tested and not recommended)
 
 1. Install uv
-2. Run uv sync
-3. Put `isic-2024-challenge.zip` and `isic-2024-synthetic.zip` into **`./content/data`**
-3. Run `skin_lesion_classification_local.ipynb`
+2. Clone the repository: git clone https://github.com/avanishd-3/skin-lesion-classification.git
+3. cd skin-lesion-classification
+4. Run uv sync
+5. Put `isic-2024-challenge.zip` and `isic-2024-synthetic.zip` into **`./content/data`**
+6. Run `skin_lesion_classification_local.ipynb`
 
 Note: This assumes CUDA on Windows and Linux, and CPU on MacOS. If this is not the case for you, see [uv Pytorch guide](https://docs.astral.sh/uv/guides/integration/pytorch/) for updating pyproject.toml to use the correct builds for torch and torchvision.
 
