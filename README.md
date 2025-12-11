@@ -20,6 +20,11 @@ This project compares EfficientNet v2-M and DINO v3-Base on classifying skin les
 ### Directories
 - **`ph2_data`**: Files for PH2 dataset
 
+## Model Download
+The trained models are available at the following Hugging Face links:
+- [EfficientNet model](https://huggingface.co/avanishd/efficient-net-v2-m-finetuned-skin-lesion-classification)
+- [DINO model](https://huggingface.co/avanishd/vit-base-patch16-dinov3-finetuned-skin-lesion-classification)
+
 ## Demo Usage Instructions
 
 ### Recommended Runtime (Colab)
