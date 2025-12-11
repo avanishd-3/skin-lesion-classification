@@ -32,7 +32,7 @@ This project compares EfficientNet v2-M and DINO v3-Base on classifying skin les
 
 1. Install uv
 2. Run uv sync
-3. Zip  `ph2_data` into `ph2_data.zip` 
+3. Zip `ph2_data` into `ph2_data.zip` 
 3. Run `demo.ipynb`
 
 Note: This assumes CUDA on Windows and Linux, and CPU on MacOS. If this is not the case for you, see [uv Pytorch guide](https://docs.astral.sh/uv/guides/integration/pytorch/) for updating pyproject.toml to use the correct builds for torch and torchvision.
