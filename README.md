@@ -40,4 +40,4 @@ If not using the Google Drive link, you must have the following zip files. The d
 
 1. Upload `skin_lesion_classification.ipynb` to Colab
 2. Upload the `skin_lesion_classification` folder to your Google Drive if you haven't already.
-3. Connect to a T4 Runtime (available under Runtime>Change runtime type) on Colab.
+3. Connect to a T4 Runtime (available under Runtime>change runtime type) on Colab.
